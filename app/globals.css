@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Instrument+Serif:ital@0;1&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-mono: 'DM Mono', monospace;
+  --font-serif: 'Instrument Serif', serif;
+  --bg: #0a0c0f;
+  --panel: #111318;
+  --panel2: #181c24;
+  --border: rgba(255,255,255,0.07);
+  --border2: rgba(255,255,255,0.13);
+  --accent: #00e5a0;
+  --accent2: #4f9eff;
+  --warn: #ff9a3c;
+  --danger: #ff4f6a;
+  --text: #e8eaf0;
+  --muted: #6b7280;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-mono);
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 2px; }
+
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+.glow-accent {
+  box-shadow: 0 0 40px rgba(0,229,160,0.15), 0 0 80px rgba(0,229,160,0.05);
+}
+
+.glow-text {
+  text-shadow: 0 0 40px rgba(0,229,160,0.4);
+}
