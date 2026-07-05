@@ -1,4 +1,4 @@
-# General Ledger Engine — Frontend
+# General Ledger Engine - Frontend
 
 The web frontend for **General Ledger Engine**, a multi-agent bank reconciliation system. This app lets a user upload a bank statement CSV, kicks off an automated reconciliation run against ERP records, and visualises the agent pipeline as it verifies and balances the ledger.
 
