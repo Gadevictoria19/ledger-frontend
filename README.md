@@ -2,7 +2,6 @@
 
 The web frontend for **General Ledger Engine**, a multi-agent bank reconciliation system. This app lets a user upload a bank statement CSV, kicks off an automated reconciliation run against ERP records, and visualises the agent pipeline as it verifies and balances the ledger.
 
-**Live demo:** [ledger-frontend-umber.vercel.app](https://ledger-frontend-umber.vercel.app)
 
 ## What it does
 
